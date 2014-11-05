@@ -20,4 +20,5 @@ set tacklebox_plugins docker up
 setenv EDITOR vim
 setenv DOCKER_HOST tcp://192.168.59.103:2375
 setenv RBENV_ROOT /usr/local/var/rbenv
-set PATH $RBENV_ROOT/versions/2.1.3/bin /usr/local/opt/php56/bin /usr/local/bin $PATH
+setenv PHP_AUTO_CONF /usr/local/bin/autoconf
+set PATH $RBENV_ROOT/versions/2.1.4/bin /usr/local/opt/php56/bin /usr/local/bin /usr/local/sbin $PATH
