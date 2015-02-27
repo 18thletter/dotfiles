@@ -1,2 +1,2 @@
-Bundle 'marijnh/tern_for_vim'
 Bundle 'Shougo/unite.vim'
+Bundle 'joonty/vdebug'
