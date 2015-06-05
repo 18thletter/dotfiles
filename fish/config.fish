@@ -20,12 +20,11 @@ set tacklebox_plugins extract up docker
 # Load aliases
 source ~/.config/fish/aliases.fish
 
-# Github API token
-set -x HOMEBREW_GITHUB_API_TOKEN 15fc56297e71482d9dd0e43f5606f68e99e99af0
-
 # Default editor
 set -x EDITOR vim
 
 # Load chruby
 source /usr/local/share/chruby/chruby.fish
 source /usr/local/share/chruby/auto.fish
+
+set -x HOMEBREW_GITHUB_API_TOKEN ee780824c17bbcae95ed1e517bacd384b43c6112
