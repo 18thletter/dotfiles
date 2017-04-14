@@ -21,10 +21,26 @@ set tacklebox_plugins extract up docker
 source ~/.config/fish/aliases.fish
 
 # Default editor
-set -x EDITOR vim
+set -x EDITOR nvim
 
 # Load chruby
 source /usr/local/share/chruby/chruby.fish
 source /usr/local/share/chruby/auto.fish
 
-set -x HOMEBREW_GITHUB_API_TOKEN ee780824c17bbcae95ed1e517bacd384b43c6112
+set -x HOMEBREW_GITHUB_API_TOKEN a1345921f7d6b89d37d20bcb9405c0b417c06b00
+
+set -x PACKAGE_DIRS $HOME/workspace/meteor/packages
+
+set -x GOPATH $HOME/workspace/golang
+
+set -x CONDAPATH $HOME/miniconda3
+
+set PATH /usr/local/sbin ~/.composer/vendor ~/.pub-cache/bin ~/.phpenv/bin $GOPATH/bin $CONDAPATH/bin $PATH
+
+source /usr/local/share/chruby/chruby.fish
+
+source /usr/local/share/chruby/auto.fish
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
+source /Users/raymundlew/.phpbrew/phpbrew.fish
