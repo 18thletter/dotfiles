@@ -27,8 +27,6 @@ set -x EDITOR nvim
 source /usr/local/share/chruby/chruby.fish
 source /usr/local/share/chruby/auto.fish
 
-set -x HOMEBREW_GITHUB_API_TOKEN a1345921f7d6b89d37d20bcb9405c0b417c06b00
-
 set -x PACKAGE_DIRS $HOME/workspace/meteor/packages
 
 set -x GOPATH $HOME/workspace/golang
