@@ -1,11 +1,12 @@
 [user]
     name = Raymund Lew
     email = raymund.lew@gmail.com
+	signingkey = 3FC2C799E3306F1B
 [alias]
     co = checkout
     up = !git pull --rebase --prune $@ && git submodule update --init --recursive
     cob = checkout -b
-    cm = !git add -A && git commit -m
+    cm = !git commit -m
     save = !git add -A && git commit -m 'SAVEPOINT'
     wip = !git add -u && git commit -m 'WIP'
     undo = reset HEAD~1 --mixed
@@ -16,3 +17,7 @@
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [push]
 	default = simple
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
