@@ -20,4 +20,6 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg
+	program = gpg1
+[core]
+	excludesfile = /Users/raymundlew/.gitignore_global
